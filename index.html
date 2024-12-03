@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogoda na świecie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pogoda na świecie</h1>
+        <form id="locationForm">
+            <input type="text" id="locationInput" placeholder="Wpisz miasto..." required>
+            <button type="submit">Dodaj</button>
+        </form>
+        <ul id="locationsList"></ul>
+        <div class="image-section">
+            <h2></h2>
+            <img id="customImage" src="img.png" alt="Obrazek" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
